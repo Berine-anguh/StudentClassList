@@ -1,0 +1,23 @@
+header, footer {
+    padding: 24px;
+    background-color:#EEEEEE ;
+  }
+  .content-area {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  
+      > div {
+          flex-grow: 1;
+      }
+  
+      > div:first-child {
+          max-width: 300px;
+          background-color: #eee;
+          padding: 24px;
+      }
+      
+      >  div:last-child {
+          padding: 24px;
+      }
+  }
