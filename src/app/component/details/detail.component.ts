@@ -7,6 +7,8 @@ import { CommonModule } from "@angular/common";
   template:` 
   <div>
   <h4>student detail</h4>
+  <h5>Program</h5>
+  
   </div>
   `,
   styles:[``],
